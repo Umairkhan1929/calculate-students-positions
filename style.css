@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+}
+
+.container{
+    width: 50%;
+    margin: 40px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: green;
+}
+
+input{
+    width: 50%;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc 
+}
+
+#add-students{
+    width: 22%;
+    height: 48px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3e8e41;
+}
+
+#student-marks{
+    margin-bottom: 20px;
+}
+
+#calculate-positions{
+    width: 30%;
+    height: 55px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result{
+    width: 30%;
+    margin: auto;
+    /* padding: 20px; */
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
