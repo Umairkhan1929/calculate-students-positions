@@ -5,11 +5,20 @@ body{
 }
 
 .container{
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
     margin: 40px auto;
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    @media (max-width: 768px) {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 20px auto;
+    }
 }
 
 h1{
@@ -19,13 +28,19 @@ h1{
 }
 
 input{
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
     height: 30px;
     margin-left: 50px;
     margin-bottom: 20px;
     padding: 10px;
     font-size: 18px;
-    border: 1px solid #ccc 
+    border: 1px solid #ccc;
+    @media (max-width: 768px) {
+        width: 70%;
+        margin-left: 10px;
+    } 
 }
 
 #add-students{
@@ -40,6 +55,11 @@ input{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    @media (max-width: 768px) {
+        width: 60%;
+        height: 50px;
+        margin-left: 10px;
+    }
 }
 
 button:hover{
@@ -62,6 +82,11 @@ button:hover{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    @media (max-width: 768px) {
+        width: 64%;
+        height: 55px;
+        margin-left: 10px;
+    }
 }
 
 #result{
@@ -74,4 +99,11 @@ button:hover{
     margin: 60px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    /* @media (max-width: 768px) { */
+        /* gap: 10px; */
+        /* padding: 20px; */
+        /* width: 60%; */
+        /* height: 50px; */
+        /* margin-left: 10px; */
+    /* } */
 }

@@ -21,6 +21,7 @@ addStudentsButton.addEventListener('click',()=>{
         inputField.type = 'number';
         inputField.placeholder = `Student ${i+1} marks`;
         studentMarksDiv.appendChild(inputField);
+        // inputField.style.width = '90%';
 
         studentMarksDiv.appendChild(document.createElement('br'));
     }
@@ -48,4 +49,5 @@ calculatePositionButton.addEventListener('click',()=>{
 
     // Display the results
     resultDiv.innerText = positions.join('\n')
+    // resultDiv.style.gap = '15px';
 });
